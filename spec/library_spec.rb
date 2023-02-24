@@ -14,4 +14,8 @@ RSpec.describe Library do
     expect(library.books).to eq([])
     expect(library.authors).to eq([])
   end
+
+  it 'add author method' do
+    expect(library.add_author).to eq()
+  end
 end

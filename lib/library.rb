@@ -10,10 +10,11 @@ class Library
   end
  
   def add_author(author)
-
+    @authors << author
+    
   end
 
   def publication_time_frame_for(author)
-    
+
   end
 end
