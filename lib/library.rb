@@ -6,7 +6,14 @@ class Library
   def initialize(name)
     @name = name
     @books = []
-    @authors = []]
+    @authors = []
   end
  
+  def add_author(author)
+
+  end
+
+  def publication_time_frame_for(author)
+    
+  end
 end
