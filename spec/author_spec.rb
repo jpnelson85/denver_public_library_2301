@@ -7,4 +7,10 @@ RSpec.describe Author do
     charlotte_bronte = Author.new({first_name: "Charlotte", last_name: "Bronte"})
     expect(charlotte_bronte).to be_a(Author)
   end
+
+  it 'name and empty array of books' do
+    charlotte_bronte = Author.new({first_name: "Charlotte", last_name: "Bronte"})
+    expect(charlotte_bronte.name).to eq("Charlotte Bronte")
+    expect(charlotte_bronte.books).to eq([])
+  end
 end
